@@ -12,13 +12,7 @@ public class GameOverScript : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label (new Rect(Screen.width / 2 - 40, 50, 80, 30), "GAME OVER");
         GUI.Label (new Rect(Screen.width / 2 - 40, 30, 80, 30), "Score: " + score);
-        if(GUI.Button (new Rect(Screen.width / 2 - 30, 350, 60, 30), "Retry?"))
-        {
-            SceneManager.LoadScene(0);
-        }
     }
-	
-	
+
 }

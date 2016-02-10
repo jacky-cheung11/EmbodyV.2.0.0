@@ -3,17 +3,16 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour {
 
-    public string playGameLevel;
 
     public void PlayGame()
     {
-        Application.LoadLevel(playGameLevel);
+        Application.LoadLevel(1); //play game
     }
 
 
     public void QuitGame()
     {
-        Application.Quit();
+        Application.Quit(); //quit game
     }
 
 }
