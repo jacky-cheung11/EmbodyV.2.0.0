@@ -21,12 +21,12 @@ public class HUDScript : MonoBehaviour {
 
     void OnDisable()
     {
-        PlayerPrefs.SetInt("Score", (int)(playerScore*100));
+        PlayerPrefs.SetInt("Confidence", (int)(playerScore*100));
     }
 
     void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 30), "Score: " + (int)(playerScore * 100));
+        GUI.Label(new Rect(10, 10, 100, 30), "Confidence: " + (int)(playerScore * 100));
     }
 
 }
