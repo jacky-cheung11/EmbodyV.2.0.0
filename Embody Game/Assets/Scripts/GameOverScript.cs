@@ -12,7 +12,7 @@ public class GameOverScript : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label (new Rect(Screen.width / 2 - 40, 60, 160, 60), "Confidence: " + score);
+        GUI.Label (new Rect(Screen.width / 2 - 40, 120, 320, 120), "Confidence: " + score);
     }
 
 }

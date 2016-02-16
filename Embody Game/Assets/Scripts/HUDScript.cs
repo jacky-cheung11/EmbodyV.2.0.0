@@ -26,7 +26,7 @@ public class HUDScript : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 30), "Confidence: " + (int)(playerScore * 100));
+        GUI.Label(new Rect(20, 20, 200, 60), "Confidence: " + (int)(playerScore * 100));
     }
 
 }
