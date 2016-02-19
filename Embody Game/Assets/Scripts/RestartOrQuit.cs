@@ -12,7 +12,7 @@ public class RestartOrQuit : MonoBehaviour {
 
     public void RestartGame()
     {
-        Application.LoadLevel(1); //restart game
+        Application.LoadLevel(2); //restart game
     }
 
 

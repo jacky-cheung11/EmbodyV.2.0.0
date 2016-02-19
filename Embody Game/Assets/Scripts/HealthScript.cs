@@ -28,7 +28,7 @@ public class HealthScript : MonoBehaviour
         {
             // Dead!
             Destroy(gameObject);
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
             return;
         }
     }

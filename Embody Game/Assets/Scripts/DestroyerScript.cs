@@ -7,7 +7,7 @@ public class DestroyerScript : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
             return;
         }
         if (other.gameObject.transform.parent){
