@@ -13,9 +13,10 @@ GameObject:
   - 50: {fileID: 5077884}
   - 114: {fileID: 11440662}
   - 114: {fileID: 11460720}
+  - 114: {fileID: 11420590}
   m_Layer: 0
   m_Name: EnemyComment1
-  m_TagString: Untagged
+  m_TagString: EnemyShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,6 +64,19 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1}
   serializedVersion: 2
   m_Size: {x: 8, y: 8}
+--- !u!114 &11420590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dde22d483e692a4f978d8e3f705a872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 1
+  isEnemy: 1
 --- !u!114 &11440662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -74,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ef7697377da1d42919114cd24b1994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 10, y: 10}
+  speed: {x: 3, y: 10}
   direction: {x: -1, y: 0}
 --- !u!114 &11460720
 MonoBehaviour:
@@ -133,6 +147,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalScale.y
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: EnemyShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed.x
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

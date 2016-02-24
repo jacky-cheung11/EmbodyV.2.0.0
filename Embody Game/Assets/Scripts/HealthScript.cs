@@ -24,13 +24,7 @@ public class HealthScript : MonoBehaviour
     {
         hp -= damageCount;
 
-        if (hp <= 0)
-        {
-            // Dead!
-            Destroy(gameObject);
-            SceneManager.LoadScene(3);
-            return;
-        }
+       
     }
 
     void OnTriggerEnter2D(Collider2D otherCollider)

@@ -271,11 +271,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 195165263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dde22d483e692a4f978d8e3f705a872, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f3df4bf27d2fa348a54f0d69947db67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
-  isEnemy: 1
+--- !u!114 &195165265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 195165263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f069f334b7bc346a9e6777b4e7d41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotPrefab: {fileID: 417564, guid: 5ef82ce7d86fbf147afcc021bc38a918, type: 2}
+  shootingRate: 0.25
 --- !u!1001 &218448445
 Prefab:
   m_ObjectHideFlags: 0

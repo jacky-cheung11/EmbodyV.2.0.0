@@ -5,6 +5,8 @@
 /// </summary>
 public class ShotScript : MonoBehaviour
 {
+    //Initilize 
+    HUDScript hud;
     // 1 - Designer variables
 
     /// <summary>
@@ -12,14 +14,22 @@ public class ShotScript : MonoBehaviour
     /// </summary>
     public int damage = 1;
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Player")
+        {
+            hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
+            hud.IncreaseScore(-5);
+            Destroy(this.gameObject);
+        }
+    }
+
+
+
     /// <summary>
     /// Projectile damage player or enemies?
     /// </summary>
     public bool isEnemyShot = false;
 
-    void Start()
-    {
-        // 2 - Limited time to live to avoid any leak
-        Destroy(gameObject, 20); // 20sec
-    }
+    
 }
