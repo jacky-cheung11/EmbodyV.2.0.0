@@ -116,8 +116,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -119.37}
-  m_SizeDelta: {x: 624, y: 164.25}
+  m_AnchoredPosition: {x: 0, y: -119.25}
+  m_SizeDelta: {x: 541.5, y: 164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250664478
 MonoBehaviour:
@@ -140,10 +140,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -159,7 +159,9 @@ MonoBehaviour:
 
     4. Gain Confidence as you progress
 
-    5. Have fun'
+    5. Press "ESC" or "P" Keys to Pause the game
+
+    6. Have fun'
 --- !u!222 &250664479
 CanvasRenderer:
   m_ObjectHideFlags: 0
