@@ -116,8 +116,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -119.25}
-  m_SizeDelta: {x: 541.5, y: 164}
+  m_AnchoredPosition: {x: 0, y: -104.5}
+  m_SizeDelta: {x: 542, y: 195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250664478
 MonoBehaviour:
@@ -153,15 +153,17 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '1. Space bar to Jump. 2x to double jump
 
-    2. Avoid getting hit by negative comments
+    2. Gain Confidence as you progress
 
-    3. Get hit 3 times by comments and the game is over
+    3. Avoid getting hit by negative comments
 
-    4. Gain Confidence as you progress
+    4. "CTRL" to "shush". Gain 500 Confidence for every hit
 
-    5. Press "ESC" or "P" Keys to Pause the game
+    5. Lose 400 confidence if you get hit by each comment
 
-    6. Have fun'
+    6. Press "ESC" or "P" Keys to Pause the game
+
+    7. Have fun!'
 --- !u!222 &250664479
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -552,7 +554,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 7.25}
+  m_AnchoredPosition: {x: 0, y: 39}
   m_SizeDelta: {x: 239, y: 89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &810391414
