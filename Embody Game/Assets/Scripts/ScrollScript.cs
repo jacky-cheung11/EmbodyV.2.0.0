@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScrollScript : MonoBehaviour {
 
-	public float parallax = 2f;
+	public float parallax = 1f;
 	
 	// Update is called once per frame
 	void Update () {

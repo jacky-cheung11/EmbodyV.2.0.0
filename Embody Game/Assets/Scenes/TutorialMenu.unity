@@ -116,8 +116,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -104.5}
-  m_SizeDelta: {x: 542, y: 195}
+  m_AnchoredPosition: {x: 66, y: -97.5}
+  m_SizeDelta: {x: 647, y: 195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250664478
 MonoBehaviour:
@@ -157,7 +157,8 @@ MonoBehaviour:
 
     3. Avoid getting hit by negative comments
 
-    4. "CTRL" to "shush". Gain 500 Confidence for every hit
+    4. Use "CTRL" or "Left/Right Mouse Button" to shush the comments. Gain 500 Confidence
+    for every hit
 
     5. Lose 400 confidence if you get hit by each comment
 
@@ -554,7 +555,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 39}
+  m_AnchoredPosition: {x: 0, y: 71}
   m_SizeDelta: {x: 239, y: 89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &810391414
