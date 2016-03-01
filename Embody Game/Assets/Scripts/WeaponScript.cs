@@ -24,6 +24,7 @@ public class WeaponScript : MonoBehaviour
     //--------------------------------
 
     private float shootCooldown;
+    public AudioSource shushSound;
 
     void Start()
     {
@@ -53,6 +54,7 @@ public class WeaponScript : MonoBehaviour
 
             // Create a new shot
             var shotTransform = Instantiate(shotPrefab) as Transform;
+            shushSound.Play(); //play shush sound effect
 
             // Assign position
             shotTransform.position = transform.position;

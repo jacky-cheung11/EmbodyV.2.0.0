@@ -22,6 +22,8 @@ namespace UnityStandardAssets._2D
 
         bool doubleJump = false;
 
+        public AudioSource jumpSound;
+
         private void Awake()
         {
             // Setting up references.
@@ -108,11 +110,13 @@ namespace UnityStandardAssets._2D
                 GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, 0);
 
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, m_JumpForce));
+                jumpSound.Play(); //play jump sound
 
 
 
                 if (!m_Grounded)
                     doubleJump = true;
+                    jumpSound.Play(); //play jump sound
             }
         }
 
