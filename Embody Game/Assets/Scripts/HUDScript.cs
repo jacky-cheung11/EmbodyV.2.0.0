@@ -4,10 +4,9 @@ using System.Collections;
 public class HUDScript : MonoBehaviour {
 
    private float playerScore = 0;
+
    public GUISkin mySkin; //reference to GUISkin
   
-
-
 	// Update is called once per frame
 	void Update () {
         playerScore += Time.deltaTime;  

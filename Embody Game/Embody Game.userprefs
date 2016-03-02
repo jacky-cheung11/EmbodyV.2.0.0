@@ -1,17 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HUDScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpaceBarScript.cs">
     <Files>
-      <File FileName="Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" Line="113" Column="52" />
-      <File FileName="Assets\Scripts\WeaponScript.cs" Line="57" Column="57" />
-      <File FileName="Assets\Scripts\HUDScript.cs" Line="31" Column="65" />
-      <File FileName="Assets\Scripts\GameOverScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpaceBarScript.cs" Line="13" Column="80" />
       <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PauseMenuScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RestartOrQuit.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HealthScript.cs" Line="42" Column="121" />
-      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\PauseMenuScript.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
