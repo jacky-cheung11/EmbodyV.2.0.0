@@ -11,9 +11,8 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         // 5 - Shooting
-        bool shoot = Input.GetButtonDown("Fire1");
-        shoot |= Input.GetButtonDown("Fire2");
-        // Careful: For Mac users, ctrl + arrow is a bad idea
+        bool shoot = (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetMouseButtonDown(0)); //left shift or left mouse button
+		shoot |= (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetMouseButtonDown(0));
 
         if (shoot)
         {
