@@ -22,7 +22,8 @@ namespace UnityStandardAssets._2D
 
         bool doubleJump = false;
 
-      //  public AudioSource jumpSound;
+        public AudioSource jumpSound;
+        public AudioSource doubleJumpSound;
 
         private void Awake()
         {
@@ -107,16 +108,17 @@ namespace UnityStandardAssets._2D
                 //anim.SetBool("Ground", false);
 
                 // rigidbody2D.velocity = new Vector2 (rigidbody2D.velocity.x, 0);
+			//	jumpSound.Play(); //play jump sound
                 GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, 0);
 
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, m_JumpForce));
-            //    jumpSound.Play(); //play jump sound
+
 
 
 
                 if (!m_Grounded)
                     doubleJump = true;
-           //         jumpSound.Play(); //play jump sound
+		//		doubleJumpSound.Play(); //play jump sound
             }
         }
 
