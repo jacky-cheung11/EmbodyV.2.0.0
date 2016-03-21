@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayGame()
     {
-        Application.LoadLevel(2); //play game
+        Application.LoadLevel(2); //Go to Character Selection
     }
 
 

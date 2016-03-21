@@ -35,10 +35,20 @@ public class PauseMenuScript : MonoBehaviour {
 
 	public void Restart()
 	{
-		Application.LoadLevel(2); //Restart the Game
+		Application.LoadLevel(3); //Restart the character 1 game
 	}
 
-	public void QuitToMain()
+    public void Restart2()
+    {
+        Application.LoadLevel(4); //Restart the character 2 game
+    }
+
+    public void Restart3()
+    {
+        Application.LoadLevel(5); //Restart the character 1 game
+    }
+
+    public void QuitToMain()
 	{
 		Application.LoadLevel(0); //Go to Main Menu
 	}

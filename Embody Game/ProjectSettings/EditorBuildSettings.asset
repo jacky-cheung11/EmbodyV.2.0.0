@@ -10,6 +10,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TutorialMenu.unity
   - enabled: 1
+    path: Assets/Scenes/CharacterSelection.unity
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
   - enabled: 1
-    path: Assets/Scenes/GameOverScreen.unity
+    path: Assets/Scenes/MainScene 2.unity
+  - enabled: 1
+    path: Assets/Scenes/MainScene 3.unity
+  - enabled: 1
+    path: Assets/Scenes/Game Over/GameOverScreen.unity
+  - enabled: 1
+    path: Assets/Scenes/Game Over/GameOverScreen 2.unity
+  - enabled: 1
+    path: Assets/Scenes/Game Over/GameOverScreen 3.unity
