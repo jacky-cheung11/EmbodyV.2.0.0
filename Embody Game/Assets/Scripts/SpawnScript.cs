@@ -9,7 +9,7 @@ public class SpawnScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Spawn();
+       Spawn();
 	}
 
     void Spawn()
