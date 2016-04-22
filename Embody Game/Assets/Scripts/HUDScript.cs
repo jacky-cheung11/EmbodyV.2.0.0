@@ -12,7 +12,7 @@ public class HUDScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         playerScore += Time.deltaTime/2;
-        highScore = PlayerPrefs.GetInt("HighScore");
+        highScore = PlayerPrefs.GetInt("High Score");
 
     }
 
@@ -29,7 +29,7 @@ public class HUDScript : MonoBehaviour {
         
         if ((int)playerScore >= (int)highScore)
         {
-            PlayerPrefs.SetInt("HighScore", (int)(playerScore));
+            PlayerPrefs.SetInt("High Score", (int)(playerScore));
         }
 
 
@@ -41,8 +41,8 @@ public class HUDScript : MonoBehaviour {
     	var mystyle = new GUIStyle();
     	mystyle.normal.textColor = GUI.skin.label.normal.textColor;
     	mystyle.fontSize = 40; //font size
-        GUI.Label(new Rect(20, 20, 1000, 60), "Positivty: " + (int)(playerScore), mystyle);
-        GUI.Label(new Rect(20, 60, 1000, 60), "HighScore: " + (int)highScore, mystyle);
+        GUI.Label(new Rect(20, 20, 1000, 60), "Positivity: " + (int)(playerScore), mystyle);
+        GUI.Label(new Rect(20, 80, 1000, 60), "High Score: " + (int)highScore, mystyle);
     }
 
 }

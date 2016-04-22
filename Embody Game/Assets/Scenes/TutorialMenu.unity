@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Text: '1. Space bar to Jump. 2x to double jump
 
 
-    2. Gain Confidence as you progress
+    2. Gain Positivity as you progress
 
 
     3. Avoid getting hit by negative comments
@@ -164,10 +164,10 @@ MonoBehaviour:
     4. Use "Left Shift" or "Left Mouse Button" to shush the comments
 
 
-    5. Gain 500 Confidence for every hit
+    5. Gain 5 Positivity for every hit
 
 
-    6. Lose 500 Confidence if you get hit by a comment
+    6. Lose Positivity if you get hit by a comment
 
 
     7. Press "ESC" or "P" keys to pause the game
@@ -195,6 +195,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -514,6 +515,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
