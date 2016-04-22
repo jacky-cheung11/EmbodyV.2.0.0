@@ -19,8 +19,8 @@ public class GameOverScript : MonoBehaviour {
 		var mystyle = new GUIStyle();
     	mystyle.normal.textColor = GUI.skin.label.normal.textColor;
     	mystyle.fontSize = 40; //font size
-        GUI.Label (new Rect(Screen.width / 2 - 170, 200, 320, 120), "Confidence: " + score, mystyle);
-        GUI.Label(new Rect(Screen.width / 2 - 170, 100, 320, 120), "HighScore: " + score, mystyle);
+        GUI.Label (new Rect(Screen.width / 2 - 170, 100, 320, 120), "Confidence: " + score, mystyle);
+        GUI.Label(new Rect(Screen.width / 2 - 170, 200, 320, 120), "HighScore: " + highScore, mystyle);
     }
 
 }
