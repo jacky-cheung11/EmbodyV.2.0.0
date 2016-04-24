@@ -156,6 +156,11 @@ Prefab:
       propertyPath: speed.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c25e6ec7f2d734644bc474d3c9f55bbc,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 172532}

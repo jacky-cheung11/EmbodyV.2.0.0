@@ -85,6 +85,52 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &7821414
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.8671875
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 411278, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 170752, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+      propertyPath: m_Name
+      value: Average-Facial Hair
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8b0c8450fac328049b4b439492d1bd92, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &20577092
 Prefab:
   m_ObjectHideFlags: 0
@@ -2417,7 +2463,6 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
