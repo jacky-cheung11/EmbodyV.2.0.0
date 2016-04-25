@@ -57,12 +57,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -85,15 +79,19 @@
     <Compile Include="Assets\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\Scripts\HUDScript.cs" />
     <Compile Include="Assets\Scripts\HealthScript.cs" />
+    <Compile Include="Assets\Scripts\HealthScript2.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PosShotScript1.cs" />
     <Compile Include="Assets\Scripts\PositiveShotScript.cs" />
     <Compile Include="Assets\Scripts\PowerUpScript.cs" />
     <Compile Include="Assets\Scripts\ScrollScript.cs" />
     <Compile Include="Assets\Scripts\ShotScript.cs" />
+    <Compile Include="Assets\Scripts\ShotScript1.cs" />
+    <Compile Include="Assets\Scripts\ShotScript2.cs" />
     <Compile Include="Assets\Scripts\Spacebar Scripts\SpaceBarScript.cs" />
     <Compile Include="Assets\Scripts\Spacebar Scripts\SpaceBarScript2.cs" />
     <Compile Include="Assets\Scripts\Spacebar Scripts\SpaceBarScript3.cs" />

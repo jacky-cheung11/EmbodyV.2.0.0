@@ -21,6 +21,18 @@ public class PositiveShotScript : MonoBehaviour
             hud.IncreaseScore(5);
             Destroy(this.gameObject);
         }
+        if (other.tag == "EnemyShot2")
+        {
+            hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
+            hud.IncreaseScore(10);
+            Destroy(this.gameObject);
+        }
+        if (other.tag == "PosShot")
+        {
+            hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
+            hud.IncreaseScore(-20);
+            Destroy(this.gameObject);
+        }
     }
 
     /// <summary>

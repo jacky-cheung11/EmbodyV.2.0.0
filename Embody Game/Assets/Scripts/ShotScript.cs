@@ -22,6 +22,12 @@ public class ShotScript : MonoBehaviour
             hud.IncreaseScore(-5);
             Destroy(this.gameObject);
         }
+        if (this.tag == "PosShot")
+        {
+            hud = GameObject.Find("Main Camera").GetComponent<HUDScript>();
+            hud.IncreaseScore(10);
+            Destroy(this.gameObject);
+        }
     }
 
 

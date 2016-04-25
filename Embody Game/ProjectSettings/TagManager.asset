@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - EnemyShot
+  - PosShot
   - New Tag
+  - GameMusic
+  - EnemyShot
+  - EnemyShot2
   layers:
   - Default
   - TransparentFX
